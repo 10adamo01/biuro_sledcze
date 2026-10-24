@@ -1,0 +1,1581 @@
+{
+ "format": "detektyw-case/1",
+ "id": "pod-zegarem",
+ "title": "Śmierć w antykwariacie »Pod Zegarem«",
+ "subtitle": "Sprawa nr 26/417/K · Kalinów, październik 2026",
+ "meta": {
+  "players": "1–4",
+  "time": "60–120 min",
+  "difficulty": "średnia",
+  "author": "Biuro Śledcze"
+ },
+ "intro": [
+  {
+   "type": "p",
+   "text": "Jesteście śledczymi Wydziału Kryminalnego. W piątek rano pracownik antykwariatu »Pod Zegarem« znalazł zwłoki właściciela, Henryka Wolskiego. Wszystko wygląda na nieszczęśliwy wypadek: przewrócona drabina, rozsypane książki, potłuczony zegar. Prokurator chce zamknąć sprawę. Wy macie wątpliwości."
+  },
+  {
+   "type": "p",
+   "text": "Przejrzyjcie akta, przypinajcie dowody na tablicy, łączcie je nitkami i notujcie wnioski we wspólnym notatniku. Część materiałów zdobędziecie dopiero, gdy złożycie trafny <b>wniosek</b>."
+  },
+  {
+   "type": "p",
+   "text": "Gdy będziecie gotowi, w zakładce <b>Rozwiązanie</b> wyślijcie jedną wspólną odpowiedź: <b>kto</b>, <b>czym</b>, <b>dlaczego</b> i <b>jak</b> sprawca zatarł ślady. Każda podpowiedź kosztuje 1 punkt."
+  },
+  {
+   "type": "small",
+   "text": "Wszystkie osoby, firmy i miejsca są fikcyjne."
+  }
+ ],
+ "documents": [
+  {
+   "id": "d1",
+   "no": "1",
+   "category": "Raporty",
+   "title": "Pismo naczelnika wydziału",
+   "subtitle": "Kalinów, 17 października 2026 r., godz. 16:20",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<b>Kom. Anna Rudnicka / prowadzący śledztwo</b>"
+    },
+    {
+     "type": "p",
+     "text": "Dziś o 7:48 przyjęliśmy zgłoszenie z antykwariatu »Pod Zegarem« przy ul. Ogrodowej 7. Pracownik, Igor Sadowski, znalazł na zapleczu ciało właściciela, Henryka Wolskiego (67 l.). Ofiara leżała przy regale z książkami obok przewróconej drabiny. Ze ściany spadł zabytkowy zegar — wskazówki zatrzymały się na <b>10:30</b>, co w pierwszym raporcie przyjęto jako godzinę 22:30 w czwartek, czyli moment upadku."
+    },
+    {
+     "type": "p",
+     "text": "Prokuratura skłania się ku wersji: starszy mężczyzna sięgał po książkę, spadł z drabiny, pociągnął za sobą zegar. Nieszczęśliwy wypadek. Wstępne wyniki sekcji i laboratorium budzą jednak moje wątpliwości, a kilka osób z otoczenia ofiary miało powody, żeby życzyć mu źle."
+    },
+    {
+     "type": "p",
+     "text": "Przekazuję Pani komplet materiałów zebranych w ciągu ostatnich godzin. Proszę ustalić, czy doszło do zabójstwa, a jeśli tak — kto, czym i dlaczego. Do poniedziałku do godz. 10:00 potrzebuję wniosku, który obroni się przed sądem. Proszę pamiętać: domysły nie wystarczą — każdy wniosek musi wynikać z dokumentów."
+    },
+    {
+     "type": "p",
+     "text": "Do Pani wiadomości: ofiara nie została okradziona. W kasetce na zapleczu znaleziono nienaruszone 2 340 zł, a z sali sprzedaży nic nie zginęło (wg wstępnego spisu I. Sadowskiego)."
+    },
+    {
+     "type": "signature",
+     "text": "insp. Jerzy Malec<br>Naczelnik Wydziału Kryminalnego KMP w Kalinowie"
+    },
+    {
+     "type": "box",
+     "title": "Osoby zainteresowane sprawą (wg ustaleń z 17.10)",
+     "blocks": [
+      {
+       "type": "list",
+       "items": [
+        "<b>Marta Wolska</b> — córka ofiary, jedyna spadkobierczyni",
+        "<b>Igor Sadowski</b> — pracownik antykwariatu, znalazł ciało",
+        "<b>Edward Kral</b> — kolekcjoner, w czwartek pokłócił się z ofiarą",
+        "<b>dr Paweł Zieliński</b> — rzeczoznawca zegarów zabytkowych, wieloletni znajomy ofiary"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "no": "2",
+   "category": "Raporty",
+   "title": "Notatka z oględzin miejsca zdarzenia",
+   "subtitle": "Sporządził: sierż. szt. Michał Kubiak, technik kryminalistyki · 17.10.2026, godz. 8:35–11:10",
+   "blocks": [
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Miejsce",
+       "Antykwariat »Pod Zegarem«, ul. Ogrodowa 7, Kalinów. Pomieszczenie zaplecza (biuro + pracownia), ok. 5 × 3,5 m."
+      ],
+      [
+       "Dostęp",
+       "Zaplecze ma dwoje drzwi: do sali sprzedaży oraz <b>tylne drzwi na podwórze</b>, skąd przejście bramą prowadzi na ul. Kasztanową. Drzwi frontowe sklepu zamknięte na klucz od wewnątrz. Tylne drzwi zamknięte, ale <b>nie na klucz</b>; brak śladów włamania."
+      ],
+      [
+       "System alarmowy",
+       "W chwili przybycia policji — rozbrojony. Wydruk dziennika zabezpieczono (dok. 15)."
+      ],
+      [
+       "Oświetlenie",
+       "Lampa na biurku i górne światło na zapleczu włączone. Sala sprzedaży — ciemno."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "Ślady i przedmioty (numeracja jak na szkicu — dok. 3)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Nr",
+      "Opis"
+     ],
+     "rows": [
+      [
+       "1",
+       "Zwłoki H. Wolskiego. Leży na brzuchu, głową w stronę biurka, ok. 1 m od regału. Ubranie: spodnie, koszula, kamizelka; marynarka na oparciu krzesła za biurkiem. Pod głową niewielka plama krwi."
+      ],
+      [
+       "2",
+       "Drabina biblioteczna (drewniana, 4 stopnie, wys. ok. 1,2 m) przewrócona na podłogę. Wokół rozrzucone 9 książek z górnej półki regału."
+      ],
+      [
+       "3",
+       "Zegar ścienny w drewnianej skrzyni, zawieszony nad regałem, leży na podłodze. Szybka potłuczona. Wskazówki zatrzymane na godz. <b>10:30</b>. Na skrzyni przywieszka warsztatowa: »NAPRAWA — sprężyna«."
+      ],
+      [
+       "4",
+       "Na biurku: filiżanka porcelanowa z resztką herbaty (nr 4a), czajnik elektryczny (zimny), otwarte pudełko kruchych ciastek. Ciastek brakuje 4–5 sztuk."
+      ],
+      [
+       "5",
+       "Na suszarce przy zlewie: <b>druga filiżanka z kompletu i spodek</b>, wilgotne — świeżo umyte. W zlewie krople wody. W szafce pozostałe 4 filiżanki z kompletu: suche."
+      ],
+      [
+       "6",
+       "Popielniczka szklana na biurku z <b>jednym niedopałkiem cygaretki</b> z białą bibułką i ustnikiem. Brak innych niedopałków."
+      ],
+      [
+       "7",
+       "Kalendarz biurkowy (zrywany, kartka na dzień). Kalendarz otwarty na piątku 17.10. <b>Kartki z czwartku 16.10 brak</b> — wyrwana; na grzbiecie widoczne resztki papieru. Kalendarz zabezpieczono do badań."
+      ],
+      [
+       "8",
+       "Na biurku wolne, czyste miejsce w kształcie koła (śr. ok. 8 cm) — w kurzu na blacie widać, że coś tam zwykle stało. Przedmiotu nie znaleziono na zapleczu."
+      ],
+      [
+       "9",
+       "Tylne drzwi: klamka od wewnątrz — wstępnie brak wyraźnych śladów (do badań). Na wycieraczce brak czytelnych śladów obuwia (sucha pogoda)."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "<b>Dodatkowo:</b> telefon komórkowy ofiary znaleziono w kieszeni marynarki (wyciszony, bateria 31%). Portfel w marynarce, 210 zł gotówką, karty. Kasetka z utargiem w szufladzie biurka — zamknięta, 2 340 zł. Na regale, mniej więcej na wysokości górnej półki, brak śladów zarysowań od drabiny."
+    },
+    {
+     "type": "note",
+     "text": "Uwaga technika: drabina stoi na podłodze stabilnie, a szczeble są szerokie. Ułożenie ciała nietypowe dla upadku z drabiny tyłem — ofiara leży twarzą do podłogi, głową w stronę środka pokoju."
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "no": "3",
+   "category": "Raporty",
+   "title": "Szkic zaplecza antykwariatu",
+   "subtitle": "Załącznik do notatki z oględzin (dok. 2). Rysunek poglądowy, nie w skali.",
+   "blocks": [
+    {
+     "type": "svg",
+     "svg": "<svg width=\"481.8897637795276\" height=\"334.488188976378\" preserveAspectRatio=\"xMinYMin meet\" viewBox=\"0 0 481 334\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.0\" fill-rule=\"evenodd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n\t<title>...</title>\n\t<desc>...</desc>\n\t<clipPath id=\"clip\">\n\t\t<rect x=\"0\" y=\"0\" width=\"481.8897637795276\" height=\"334.488188976378\"/>\n\t</clipPath>\n\t<g id=\"group\" transform=\"scale(1,-1) translate(0,-334)\" style=\"clip-path: url(#clip)\">\n\t\t<g transform=\"\">\n\t\t\t<rect x=\"0\" y=\"0\" width=\"481.8897637795276\" height=\"334.488188976378\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,98%,94%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"22.67716535433071\" y=\"28.34645669291339\" width=\"425.19685039370086\" height=\"277.7952755905512\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;\"/>\n\t\t\t<path d=\"M 447.874016,85.03937 L 447.874016,119.055118 Z\" style=\"stroke: rgb(100%,98%,94%); stroke-linecap: butt; stroke-width: 4;\"/>\n\t\t\t<text x=\"453.5433070866143\" y=\"96.37795275590553\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,192) scale(1,-1)\">drzwi</text>\n\t\t\t<text x=\"453.5433070866143\" y=\"86.45669291338584\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,172) scale(1,-1)\">zaplecza</text>\n\t\t\t<text x=\"453.5433070866143\" y=\"76.53543307086615\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,153) scale(1,-1)\">(podwórze)</text>\n\t\t\t<path d=\"M 178.582677,306.141732 L 221.102362,306.141732 Z\" style=\"stroke: rgb(100%,98%,94%); stroke-linecap: butt; stroke-width: 4;\"/>\n\t\t\t<text x=\"170.07874015748035\" y=\"311.8110236220473\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,623) scale(1,-1)\">przejście do sali sprzedaży</text>\n\t\t\t<rect x=\"28.34645669291339\" y=\"51.0236220472441\" width=\"25.511811023622048\" height=\"226.77165354330714\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,78%,63%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"34.01574803149607\" y=\"158.740157480315\" style=\"font-family: SansB; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,317) scale(1,-1)\">R</text>\n\t\t\t<text x=\"59.52755905511812\" y=\"283.46456692913387\" style=\"font-family: Sans; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,566) scale(1,-1)\">regał z książkami (wys. 2,6 m)</text>\n\t\t\t<rect x=\"235.27559055118115\" y=\"170.07874015748033\" width=\"119.05511811023621\" height=\"62.36220472440945\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,69%,53%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"272.12598425196853\" y=\"198.42519685039372\" style=\"font-family: SansB; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,396) scale(1,-1)\">BIURKO</text>\n\t\t\t<circle cx=\"328.8188976377953\" cy=\"218.2677165354331\" r=\"6\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"249.4488188976378\" y=\"141.73228346456693\" width=\"28.346456692913364\" height=\"22.677165354330725\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;\"/>\n\t\t\t<text x=\"243.77952755905517\" y=\"130.3937007874016\" style=\"font-family: Sans; font-size: 6.3px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,260) scale(1,-1)\">krzesło gościa</text>\n\t\t\t<rect x=\"362.8346456692914\" y=\"249.44881889763784\" width=\"79.37007874015751\" height=\"51.02362204724412\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(88%,88%,88%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"368.5039370078741\" y=\"272.12598425196853\" style=\"font-family: Sans; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,544) scale(1,-1)\">zlew + suszarka</text>\n\t\t\t<polygon points=\"62.3622 141.7323, 153.0709 107.7165, 158.7402 119.0551, 68.0315 153.0709\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1.2; fill: none; fill-rule: evenodd;\"/>\n\t\t\t<path d=\"M 77.385827,136.062992 L 83.055118,147.401575 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1;\"/>\n\t\t\t<path d=\"M 92.409449,130.393701 L 98.07874,141.732283 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1;\"/>\n\t\t\t<path d=\"M 107.433071,124.724409 L 113.102362,136.062992 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1;\"/>\n\t\t\t<path d=\"M 122.456693,119.055118 L 128.125984,130.393701 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1;\"/>\n\t\t\t<path d=\"M 137.480315,113.385827 L 143.149606,124.724409 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1;\"/>\n\t\t\t<polygon points=\"79.37008 170.0787, 170.0787 187.0866, 175.748 204.0945, 85.03937 192.7559\" style=\"stroke: rgb(63%,13%,10%); stroke-linecap: butt; stroke-width: 1.5; fill: none; fill-rule: evenodd; stroke-dasharray: 3, 2;\"/>\n\t\t\t<circle cx=\"158.74015748031496\" cy=\"68.03149606299213\" r=\"11.338582677165356\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;\"/>\n\t\t\t<circle cx=\"127.55905511811025\" cy=\"209.76377952755908\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"124.60190179779775\" y=\"206.36220472440948\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,412) scale(1,-1)\">1</text>\n\t\t\t<circle cx=\"107.71653543307087\" cy=\"90.70866141732284\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"104.75938211275837\" y=\"87.30708661417324\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,174) scale(1,-1)\">2</text>\n\t\t\t<circle cx=\"136.06299212598427\" cy=\"68.03149606299213\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"133.10583880567177\" y=\"64.62992125984253\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,129) scale(1,-1)\">3</text>\n\t\t\t<circle cx=\"294.80314960629926\" cy=\"238.11023622047247\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"291.84599628598676\" y=\"234.70866141732287\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,469) scale(1,-1)\">4</text>\n\t\t\t<circle cx=\"419.52755905511816\" cy=\"238.11023622047247\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"416.57040573480566\" y=\"234.70866141732287\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,469) scale(1,-1)\">5</text>\n\t\t\t<circle cx=\"340.15748031496065\" cy=\"175.74803149606302\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"337.20032699464815\" y=\"172.34645669291342\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,344) scale(1,-1)\">6</text>\n\t\t\t<circle cx=\"249.4488188976378\" cy=\"215.43307086614175\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"246.4916655773253\" y=\"212.03149606299215\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,424) scale(1,-1)\">7</text>\n\t\t\t<circle cx=\"362.8346456692914\" cy=\"221.10236220472444\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"359.8774923489789\" y=\"217.70078740157484\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,435) scale(1,-1)\">8</text>\n\t\t\t<circle cx=\"453.5433070866142\" cy=\"102.0472440944882\" r=\"9.354330708661418\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"450.5861537663017\" y=\"98.6456692913386\" style=\"font-family: SansB; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,197) scale(1,-1)\">9</text>\n\t\t\t<text x=\"287.77520992249026\" y=\"11.338582677165356\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,22) scale(1,-1)\">Skala orientacyjna: 1 cm ≈ 0,5 m.   Północ ↑</text>\n\t\t</g>\n\t</g>\n</svg>\n"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Nr",
+      "Oznaczenie",
+      "Nr",
+      "Oznaczenie"
+     ],
+     "rows": [
+      [
+       "1",
+       "Zwłoki (obrys czerwony)",
+       "6",
+       "Popielniczka z niedopałkiem"
+      ],
+      [
+       "2",
+       "Przewrócona drabina",
+       "7",
+       "Kalendarz bez kartki z 16.10"
+      ],
+      [
+       "3",
+       "Zegar ścienny (spadł)",
+       "8",
+       "Puste miejsce na biurku (ślad w kurzu)"
+      ],
+      [
+       "4",
+       "Filiżanka z herbatą, ciastka",
+       "9",
+       "Tylne drzwi na podwórze"
+      ],
+      [
+       "5",
+       "Druga filiżanka na suszarce (umyta)",
+       "R",
+       "Regał z książkami"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "no": "4",
+   "category": "Raporty",
+   "title": "Protokół sekcji zwłok — wyciąg",
+   "subtitle": "Zakład Medycyny Sądowej w Kalinowie · sekcję przeprowadził dr n. med. Robert Gajda · 17.10.2026",
+   "blocks": [
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Zmarły",
+       "Henryk Wolski, ur. 1959, wzrost 176 cm, masa ciała 74 kg."
+      ],
+      [
+       "Przyczyna zgonu",
+       "Obrażenia czaszkowo-mózgowe spowodowane <b>pojedynczym urazem okolicy potylicznej</b> (tył głowy)."
+      ],
+      [
+       "Charakter rany",
+       "Rana tłuczona o kształcie łukowatym, dł. ok. 4 cm, z pęknięciem kości pod spodem. W obrębie rany <b>odcisk drobnego, regularnego ornamentu (rowkowane, łuskowate wzory)</b>. Uraz zadany z dużą siłą <b>ciężkim, twardym przedmiotem o zaokrąglonej krawędzi</b>, od tyłu i nieco z góry."
+      ],
+      [
+       "Ocena mechanizmu",
+       "Obrażenie <b>nie odpowiada upadkowi z drabiny</b> o wysokości ok. 1,2 m na drewnianą podłogę. Brak typowych obrażeń towarzyszących upadkowi (otarcia dłoni, łokci, stłuczenia twarzy od strony podłogi są minimalne i powstały prawdopodobnie, gdy ofiara osunęła się na podłogę po ciosie). Na podłodze w miejscu znalezienia brak przedmiotu, o który ofiara mogłaby uderzyć tyłem głowy."
+      ],
+      [
+       "Czas zgonu",
+       "Na podstawie stężenia pośmiertnego, plam opadowych i temperatury ciała: <b>między 20:30 a 23:30</b> w dniu 16.10.2026."
+      ],
+      [
+       "Treść żołądka",
+       "Herbata czarna oraz niewielka ilość kruchego ciasta. Stopień trawienia wskazuje, że posiłek spożyto <b>krótko przed śmiercią — najwyżej 30–40 minut</b>."
+      ],
+      [
+       "Alkohol / leki",
+       "Nie stwierdzono alkoholu ani substancji odurzających. Ofiara przyjmowała lek na nadciśnienie (stężenie terapeutyczne)."
+      ],
+      [
+       "Inne",
+       "Na prawym przedramieniu brak śladów obrony. Pod paznokciami brak materiału biologicznego obcego. Ofiara najpewniej nie spodziewała się ataku — stała tyłem do sprawcy."
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Wniosek: obrażenia wskazują na działanie osoby trzeciej. Mechanizm »upadek z drabiny« jest mało prawdopodobny."
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "no": "5",
+   "category": "Raporty",
+   "title": "Raport laboratorium kryminalistycznego",
+   "subtitle": "Laboratorium Kryminalistyczne KWP · wyniki wstępne · stan na 17.10.2026, godz. 15:40",
+   "blocks": [
+    {
+     "type": "h",
+     "text": "5.1 Zegar ścienny (ślad 3)"
+    },
+    {
+     "type": "p",
+     "text": "Mechanizm z ok. 1900 r. <b>Sprężyna napędowa pęknięta</b>; na powierzchni pęknięcia nalot korozji — uszkodzenie powstało co najmniej kilka dni przed zdarzeniem. <b>Z pękniętą sprężyną mechanizm nie mógł chodzić.</b> Upadek ze ściany nie zmienia położenia wskazówek w tym modelu (wskazówki osadzone ciasno). Na wskazówkach brak linii papilarnych, ale na wskazówce minutowej <b>ślady włókien tekstylnych</b> (ciemnoszara wełna) — jakby poruszano ją przez materiał, np. rękawiczkę lub chusteczkę."
+    },
+    {
+     "type": "h",
+     "text": "5.2 Filiżanki (ślady 4 i 5)"
+    },
+    {
+     "type": "p",
+     "text": "Filiżanka z biurka: odciski palców wyłącznie H. Wolskiego, resztki czarnej herbaty. Filiżanka z suszarki: <b>umyta</b> płynem do naczyń, brak użytecznych śladów. Na spodku pod spodem jeden nieczytelny fragment odcisku — nie nadaje się do porównania."
+    },
+    {
+     "type": "h",
+     "text": "5.3 Niedopałek (ślad 6)"
+    },
+    {
+     "type": "p",
+     "text": "Cygaretka z ustnikiem, bibułka biała, nadruk na bibułce: <b>»Café Crème«</b>. Popiół świeży, niedopałek wypalony do ok. 2/3. Materiał do badań DNA pobrany — <b>wynik za ok. 14 dni</b>."
+    },
+    {
+     "type": "h",
+     "text": "5.4 Kalendarz (ślad 7)"
+    },
+    {
+     "type": "p",
+     "text": "Kartka z 16.10 wyrwana. Na kartce z 17.10 metodą odbitki grafitowej ujawniono odciśnięty ślad pisma z kartki poprzedniej (pisano długopisem z naciskiem). Czytelny fragment:<br/><b>»  9:30 Malinowski — odbiór?   ...   21:00 — P.Z. — Le Roy !!  «</b><br/>Pismo zgodne z charakterem pisma ofiary."
+    },
+    {
+     "type": "h",
+     "text": "5.5 Klamka tylnych drzwi (ślad 9)"
+    },
+    {
+     "type": "p",
+     "text": "Od wewnątrz: świeże odciski I. Sadowskiego (poranne otwarcie drzwi). Pod nimi powierzchnia <b>starta</b> — brak starszych śladów, także ofiary, choć według zeznań korzystała z tych drzwi codziennie."
+    },
+    {
+     "type": "h",
+     "text": "5.6 Telefon ofiary"
+    },
+    {
+     "type": "p",
+     "text": "Odczyt pamięci: <b>SMS przychodzący z 16.10, godz. 17:05, usunięty</b> z pamięci telefonu. Odzysk treści w toku (wynik w przyszłym tygodniu). Dziennik systemowy: <b>ostatnie odblokowanie telefonu 16.10, godz. 21:21</b> (wzorem / kodem PIN). Po 21:21 telefon nie był odblokowywany."
+    },
+    {
+     "type": "small",
+     "text": "5.7 — przeszukanie okolicy antykwariatu: nie zlecono. Aby je zlecić, złóż wniosek w zakładce »Wnioski«."
+    }
+   ]
+  },
+  {
+   "id": "d6",
+   "no": "6",
+   "category": "Osoby",
+   "title": "Karty osób podejrzanych",
+   "blocks": [
+    {
+     "type": "small",
+     "text": "Opracowanie: kom. A. Rudnicka na podstawie rozpytania i baz danych."
+    },
+    {
+     "type": "h",
+     "text": "MARTA WOLSKA, 41 l. — córka ofiary"
+    },
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Zawód",
+       "Właścicielka studia jogi (zamkniętego w sierpniu 2026)."
+      ],
+      [
+       "Związek z ofiarą",
+       "Jedyne dziecko. Jedyna spadkobierczyni antykwariatu i mieszkania."
+      ],
+      [
+       "Możliwy motyw",
+       "Długi — ok. 80 000 zł po upadku studia. W środę 15.10 pokłóciła się z ojcem, który odmówił pożyczki."
+      ],
+      [
+       "Deklarowane alibi",
+       "Czwartek wieczorem w kinie »Apollo« (seans 20:30, sala 3)."
+      ],
+      [
+       "Uwagi",
+       "Pali papierosy mentolowe typu slim. Jeździ własnym samochodem."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "IGOR SADOWSKI, 29 l. — pracownik antykwariatu"
+    },
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Zawód",
+       "Sprzedawca i pomocnik w pracowni od 3 lat. Ma klucze i własny kod do alarmu (kod 02)."
+      ],
+      [
+       "Związek z ofiarą",
+       "Pracodawca. Znalazł ciało w piątek o 7:41."
+      ],
+      [
+       "Możliwy motyw",
+       "Z magazynu zniknął zegarek kieszonkowy marki Omega. Przy Sadowskim znaleziono kwit z lombardu (dok. 18)."
+      ],
+      [
+       "Deklarowane alibi",
+       "Czwartek wieczorem na siłowni »FitPoint«, potem w domu."
+      ],
+      [
+       "Uwagi",
+       "Używa e-papierosa, nie pali tradycyjnych. Nie ma samochodu, jeździ rowerem."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "EDWARD KRAL, 63 l. — kolekcjoner"
+    },
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Zawód",
+       "Emerytowany inżynier, kolekcjoner starodruków."
+      ],
+      [
+       "Związek z ofiarą",
+       "Stały klient od 20 lat; ostatnio skonfliktowany."
+      ],
+      [
+       "Możliwy motyw",
+       "W czwartek ok. 15:00 głośna kłótnia w sklepie o starodruk, który ofiara sprzedała innemu klientowi. Świadkowie słyszeli, jak Kral krzyczał: »Jeszcze pan tego pożałuje!«."
+      ],
+      [
+       "Deklarowane alibi",
+       "Wieczór w domu przy ul. Wiśniowej (dzielnica Zalesie, ok. 14 km od antykwariatu)."
+      ],
+      [
+       "Uwagi",
+       "Niepalący (astma). Ma samochód, ale wieczorami — wg własnych słów — nie jeździ (słaby wzrok)."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "dr PAWEŁ ZIELIŃSKI, 52 l. — rzeczoznawca"
+    },
+    {
+     "type": "kv",
+     "rows": [
+      [
+       "Zawód",
+       "Biegły rzeczoznawca ds. zegarów zabytkowych. Wystawia certyfikaty autentyczności dla kolekcjonerów i domów aukcyjnych."
+      ],
+      [
+       "Związek z ofiarą",
+       "Znajomy od ok. 15 lat, okazjonalna współpraca zawodowa."
+      ],
+      [
+       "Możliwy motyw",
+       "Na razie nie ustalono."
+      ],
+      [
+       "Deklarowane alibi",
+       "Czwartek od 20:00 do ok. 22:30 kolacja z żoną w restauracji »Pod Lipami« (ul. Kasztanowa 12)."
+      ],
+      [
+       "Uwagi",
+       "Pali cygaretki. Biuro w centrum, ok. 1 km od antykwariatu."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "no": "7",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Igor Sadowski",
+   "subtitle": "Świadek / osoba znajdująca zwłoki · 17.10.2026, 9:15",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Proszę opisać, co pan zastał rano.",
+       "Przyszedłem o 7:40 tylnymi drzwiami, jak zawsze. Zdziwiłem się, że alarm był wyłączony i drzwi niezamknięte na klucz. Na zapleczu paliło się światło. Pan Henryk leżał na podłodze. Zadzwoniłem na 112, to było chwilę przed ósmą."
+      ],
+      [
+       "Czy pan Wolski często pracował wieczorami?",
+       "Tak. Sklep zamykamy o 19:00, ja włączam alarm i wychodzę. Szef czasem wracał wieczorem, umawiał się z lepszymi klientami albo z ludźmi z branży. Wtedy zawsze parzył herbatę w tym swoim komplecie z porcelany i stawiał ciastka. Dla siebie sam — nigdy nie wyjmował porcelany, pił z kubka."
+      ],
+      [
+       "Zegar ścienny pokazywał 10:30. Co pan o tym wie?",
+       "To dziwne. Ten zegar stał od poniedziałku — pękła mu sprężyna. Szef sam powiesił kartkę »naprawa«, czekał na część. Wskazówki stały na za dziesięć piąta, dokładnie pamiętam, bo żartowaliśmy, że w sklepie zawsze jest pora na podwieczorek. Nikt go nie ruszał."
+      ],
+      [
+       "Czy czegoś brakuje na zapleczu?",
+       "Tak! Na biurku zawsze stała sowa z brązu, przycisk do papieru. Ciężka jak cegła, szef ją uwielbiał. Teraz jej nie ma."
+      ],
+      [
+       "Czy pan Wolski palił?",
+       "Nie, nigdy. Nie znosił dymu. Ale dla niektórych klientów robił wyjątek i wyjmował popielniczkę. Pan doktor Zieliński na przykład zawsze palił u nas te swoje cienkie cygaretki."
+      ],
+      [
+       "Gdzie był pan w czwartek wieczorem?",
+       "Na siłowni FitPoint, od wpół do dziewiątej do mniej więcej dziesiątej. Potem rowerem do domu. Na siłowni wchodzi się na kartę, to wszystko jest zapisywane."
+      ],
+      [
+       "Przy panu znaleziono kwit z lombardu na zegarek Omega. Skąd go pan miał?",
+       "(Po dłuższym milczeniu.) Wziąłem go z magazynu w zeszłym tygodniu. Miałem długi za mieszkanie. Chciałem go wykupić, jak tylko dostanę wypłatę. Szef chyba jeszcze nie wiedział. Ale ja go nie skrzywdziłem! On mi dał pracę, kiedy nikt nie chciał."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d8",
+   "no": "8",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Marta Wolska",
+   "subtitle": "Osoba podejrzana · 17.10.2026, 11:30",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Kiedy ostatni raz rozmawiała pani z ojcem?",
+       "W czwartek wieczorem, przed dziewiątą — tata do mnie zadzwonił. Byłam w kinie, wyszłam z sali do holu, żeby odebrać. Myślałam, że zmienił zdanie co do pożyczki."
+      ],
+      [
+       "O czym rozmawialiście?",
+       "Krótko. Powiedział, że przemyślał sprawę, że chce mi pomóc, ale nie przez telefon, bo <b>»ma gościa«</b> i porozmawiamy jutro na spokojnie. Był spokojny, nawet ciepły. W tle słyszałam męski głos, ktoś coś powiedział, jakby się niecierpliwił. Nie rozpoznałam."
+      ],
+      [
+       "Pokłóciła się pani z ojcem w środę.",
+       "Tak. Mam długi, to żadna tajemnica. Powiedział, że nie da mi pieniędzy na kolejny »biznes«. Byłam wściekła. Ale to mój ojciec. Nigdy bym..."
+      ],
+      [
+       "Proszę opisać swój czwartkowy wieczór.",
+       "Wyjechałam z domu ok. 20:00, zaparkowałam na parkingu pod kinem Apollo, kupiłam popcorn. Seans o 20:30, film trwał ponad dwie godziny. Wyszłam z sali przed jedenastą, pojechałam prosto do domu. Bilet i paragony mam w portfelu, oddałam je policji."
+      ],
+      [
+       "Czy pani pali?",
+       "Tak, mentolowe, cienkie. Tata tego nie znosił, przy nim nie paliłam nigdy."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d9",
+   "no": "9",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Edward Kral",
+   "subtitle": "Osoba podejrzana · 17.10.2026, 13:00",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "O co pokłócił się pan z panem Wolskim w czwartek?",
+       "Henryk obiecał mi starodruk z 1623 roku — czekałem na niego rok! A potem sprzedał go komuś, kto zapłacił więcej. Poszedłem do sklepu ok. trzeciej, powiedziałem, co o tym myślę. Owszem, krzyczałem. Powiedziałem, że pożałuje. Głupie słowa."
+      ],
+      [
+       "Gdzie był pan wieczorem?",
+       "W domu, na Wiśniowej. Koło dziewiątej wyszedłem z psem na krótki spacer wokół bloku, potem wróciłem. Wieczorem było mi głupio, chciałem przeprosić. Dzwoniłem do Henryka z telefonu stacjonarnego — dwa razy, chyba za kwadrans dziesiąta i po dziesiątej. Nie odebrał. Pomyślałem, że się obraził."
+      ],
+      [
+       "Ma pan samochód?",
+       "Mam, stoi pod blokiem, ale po zmroku nie jeżdżę, źle widzę. Sąsiedzi to potwierdzą."
+      ],
+      [
+       "Czy był pan kiedykolwiek na zapleczu antykwariatu wieczorem?",
+       "Nie. Henryk przyjmował tam tylko ludzi z branży. Ja byłem dla niego zwykłym klientem."
+      ],
+      [
+       "Czy wie pan, z kim pan Wolski się spotykał?",
+       "Ostatnio był podekscytowany jakimś zegarem. Mówił, że »komuś się porządnie dostanie« — ale nie powiedział komu. Myślałem, że chodzi o jakąś transakcję."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d10",
+   "no": "10",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — dr Paweł Zieliński",
+   "subtitle": "Osoba podejrzana · 17.10.2026, 14:10",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Kiedy ostatnio widział się pan albo rozmawiał z panem Wolskim?",
+       "Hm... jakieś dwa tygodnie temu. Wpadłem do sklepu, wypiliśmy herbatę. Normalna, koleżeńska rozmowa. Od tamtej pory nie mieliśmy kontaktu."
+      ],
+      [
+       "Gdzie był pan w czwartek wieczorem?",
+       "Na kolacji z żoną w restauracji Pod Lipami. Byliśmy tam od ósmej do wpół do jedenastej, potem taksówką do domu. Płaciłem kartą — może pani sprawdzić."
+      ],
+      [
+       "Czy coś mówi panu nazwisko Malinowski albo zegar marki Le Roy?",
+       "Le Roy to słynny francuski zegarmistrz z XVIII wieku, każdy w branży zna to nazwisko. Malinowski... nie kojarzę. Wydaję dziesiątki opinii rocznie, nie pamiętam wszystkich klientów."
+      ],
+      [
+       "Czy pali pan?",
+       "Tak, cygaretki. Co to ma do rzeczy?"
+      ],
+      [
+       "Czy Henryk miał wrogów?",
+       "Był człowiekiem zasad, czasem przesadnie. Potrafił komuś zepsuć interes przez drobiazg. Ale wrogów? Proszę porozmawiać z tym Kralem — słyszałem, że mu groził. No i córka ma podobno spore długi."
+      ],
+      [
+       "Skąd pan wie o kłótni z Kralem i długach córki, skoro od dwóch tygodni nie miał pan kontaktu z ofiarą?",
+       "Kalinów to małe miasto, pani komisarz. Ludzie gadają."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d11",
+   "no": "11",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Ewa Zielińska",
+   "subtitle": "Świadek — żona P. Zielińskiego · 17.10.2026, 15:00",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Jak wyglądał państwa czwartkowy wieczór?",
+       "Mieliśmy rezerwację na ósmą w Pod Lipami. Przyjechaliśmy razem, taksówką, mąż był cały czas ze mną. Wróciliśmy ok. 23:00."
+      ],
+      [
+       "Czy mąż wychodził w trakcie kolacji?",
+       "Nie. No, może na papierosa przed lokal, on pali te swoje cygaretki. Ale to parę minut."
+      ],
+      [
+       "Czy mąż wspominał ostatnio o panu Wolskim?",
+       "Nie... chociaż był ostatnio podenerwowany, źle spał. Mówił, że ma kłopot z jakąś opinią. Nie wnikam w jego pracę."
+      ],
+      [
+       "W co był ubrany mąż tego wieczoru?",
+       "Garnitur, płaszcz. I te szare wełniane rękawiczki, które mu dałam na imieniny. Był zimny wieczór."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d12",
+   "no": "12",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Tomasz Bąk",
+   "subtitle": "Świadek — kelner, restauracja »Pod Lipami« · 17.10.2026, 17:30",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Czy obsługiwał pan w czwartek państwa Zielińskich?",
+       "Tak, stolik nr 7. Rezerwacja na 20:00 na dwie osoby. Pani Zielińska przyszła punktualnie — <b>sama</b>. Powiedziała, że mąż dojedzie z biura. Zamówiła wodę i wino, potem zupę, bo długo czekała."
+      ],
+      [
+       "Kiedy przyszedł pan Zieliński?",
+       "Około wpół do dziesiątej, może parę minut później. Wszedł od strony Kasztanowej, był zdyszany, mówił coś o korkach. Od razu zamówił podwójną whisky. Wtedy dopiero zamówili dania główne."
+      ],
+      [
+       "Czy coś pana zdziwiło?",
+       "Pan doktor zwykle jest bardzo rozmowny, a tym razem siedział cicho. Dwa razy pytał mnie o godzinę i poprosił, żeby na rachunku była dokładna godzina płatności — że »do rozliczenia z firmą«. Zapłacił ok. 22:30."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d13",
+   "no": "13",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Bożena Lis",
+   "subtitle": "Świadek — sąsiadka E. Krala, ul. Wiśniowa · 17.10.2026, 18:10",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Czy widziała pani pana Krala w czwartek wieczorem?",
+       "Tak, wyprowadzał tego swojego jamnika. Rozmawialiśmy przed klatką chyba z kwadrans, od mniej więcej <b>dziesięć po dziewiątej do wpół do dziesiątej</b> — wiem, bo potem zaczynał się mój serial o 21:30 i musiałam lecieć."
+      ],
+      [
+       "Jak się zachowywał?",
+       "Był przybity. Mówił, że się z kimś pokłócił i że musi przeprosić. Pan Kral to porządny człowiek, tylko w gorącej wodzie kąpany."
+      ],
+      [
+       "Czy jego samochód stał wtedy pod blokiem?",
+       "Stał, jak zawsze. On wieczorem nie jeździ, ma kiepski wzrok."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d14",
+   "no": "14",
+   "category": "Przesłuchania",
+   "title": "Przesłuchanie — Krystyna Mazur",
+   "subtitle": "Świadek — właścicielka kwiaciarni obok antykwariatu · 17.10.2026, 10:40",
+   "blocks": [
+    {
+     "type": "qa",
+     "items": [
+      [
+       "Co pani słyszała w czwartek?",
+       "Około trzeciej po południu wielką awanturę w antykwariacie. Starszy pan — ten kolekcjoner, Kral — krzyczał, że pan Henryk jeszcze pożałuje. Wyszedł, trzaskając drzwiami."
+      ],
+      [
+       "Czy widziała pani kogoś wieczorem?",
+       "Zamykam kwiaciarnię o 18:00, więc nie. Ale pan Henryk mówił mi w czwartek rano, że wieczorem ma »trudną rozmowę z dawnym przyjacielem« i że »przyjaźń przyjaźnią, ale uczciwość jest ważniejsza«. Wydawał się smutny."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Odczytano, podpisano. Przesłuchujący: kom. Anna Rudnicka."
+    }
+   ]
+  },
+  {
+   "id": "d15",
+   "no": "15",
+   "category": "Dowody",
+   "title": "Dziennik systemu alarmowego",
+   "subtitle": "Centrala SecuNet AX-200 · obiekt: Antykwariat »Pod Zegarem« · wydruk z 17.10.2026, 9:02",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Kody użytkowników: <b>01 — H. Wolski</b>, <b>02 — I. Sadowski</b>. Czujnik kontaktronowy rejestruje każde otwarcie i zamknięcie drzwi zaplecza, ale <b>nie rozróżnia wejścia od wyjścia</b>. Gdy alarm jest rozbrojony, otwarcie drzwi jest tylko zapisywane, bez alarmu."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Data",
+      "Godzina",
+      "Zdarzenie",
+      "Użytkownik / strefa"
+     ],
+     "rows": [
+      [
+       "16.10",
+       "07:52",
+       "ROZBROJENIE",
+       "kod 02"
+      ],
+      [
+       "16.10",
+       "07:52",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "16.10",
+       "19:03",
+       "UZBROJENIE",
+       "kod 02"
+      ],
+      [
+       "16.10",
+       "19:04",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "16.10",
+       "20:51",
+       "ROZBROJENIE",
+       "kod 01"
+      ],
+      [
+       "16.10",
+       "20:51",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "16.10",
+       "20:58",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "16.10",
+       "21:24",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "17.10",
+       "07:41",
+       "Drzwi zaplecza — otwarcie / zamknięcie",
+       "strefa 1"
+      ],
+      [
+       "17.10",
+       "08:06",
+       "Drzwi frontowe — otwarcie (policja)",
+       "strefa 2"
+      ]
+     ],
+     "mono": true
+    },
+    {
+     "type": "small",
+     "text": "Brak innych zdarzeń w okresie 16.10, 19:04 – 17.10, 07:41. Czujnik ruchu w sali sprzedaży: brak aktywacji 16.10 po 19:04."
+    }
+   ]
+  },
+  {
+   "id": "d16",
+   "no": "16",
+   "category": "Dowody",
+   "title": "Billing telefonu ofiary",
+   "subtitle": "Operator: Telkom · nr 600 *** 117 (H. Wolski) · okres: 16.10.2026, 00:00 – 17.10.2026, 08:00",
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      "Godzina",
+      "Typ",
+      "Numer",
+      "Abonent (ustalenia policji)",
+      "Czas"
+     ],
+     "rows": [
+      [
+       "09:14",
+       "połącz. wych.",
+       "511 *** 402",
+       "I. Sadowski (kom.)",
+       "0:45"
+      ],
+      [
+       "11:02",
+       "połącz. przych.",
+       "723 *** 650",
+       "A. Malinowski (kom.)",
+       "2:31"
+      ],
+      [
+       "16:12",
+       "połącz. wych.",
+       "71 3** ** 18",
+       "Biuro dr. P. Zielińskiego",
+       "3:40"
+      ],
+      [
+       "17:05",
+       "SMS przych.",
+       "601 *** 239",
+       "P. Zieliński (kom.)",
+       "—"
+      ],
+      [
+       "17:31",
+       "SMS wych.",
+       "601 *** 239",
+       "P. Zieliński (kom.)",
+       "—"
+      ],
+      [
+       "21:02",
+       "połącz. wych.",
+       "698 *** 044",
+       "M. Wolska (kom.)",
+       "2:14"
+      ],
+      [
+       "21:48",
+       "połącz. przych.",
+       "71 6** ** 90",
+       "E. Kral (stacjonarny, ul. Wiśniowa)",
+       "nieodebr."
+      ],
+      [
+       "22:15",
+       "połącz. przych.",
+       "71 6** ** 90",
+       "E. Kral (stacjonarny, ul. Wiśniowa)",
+       "nieodebr."
+      ],
+      [
+       "07:48",
+       "—",
+       "—",
+       "(zgłoszenie 112 z telefonu I. Sadowskiego)",
+       "—"
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Treści SMS operator nie przechowuje. SMS wychodzący z 17:31 nie został usunięty z telefonu ofiary — treść: <b>»Dobrze. O 21 u mnie, wejście od podwórza. H.«</b>"
+    }
+   ]
+  },
+  {
+   "id": "d17",
+   "no": "17",
+   "category": "Dowody",
+   "title": "Analiza monitoringu i rejestrów",
+   "subtitle": "Sporządził: st. asp. Krzysztof Wrona · 17.10.2026, 19:20",
+   "blocks": [
+    {
+     "type": "h",
+     "text": "A. Kino »Apollo«, Al. Słoneczna 40 (ok. 11 km od antykwariatu, ok. 25 min samochodem)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Kamera",
+      "Czas",
+      "Obraz"
+     ],
+     "rows": [
+      [
+       "K1 — wejście",
+       "20:39:50",
+       "Kobieta zgodna z wizerunkiem M. Wolskiej wchodzi do budynku."
+      ],
+      [
+       "K2 — hol / bar",
+       "20:47–20:49",
+       "M. Wolska kupuje popcorn przy barze (zgodne z paragonem)."
+      ],
+      [
+       "K2 — hol / bar",
+       "21:02:30–21:05:10",
+       "M. Wolska wychodzi z sali 3, rozmawia przez telefon w holu, wraca do sali."
+      ],
+      [
+       "K3 — wyjście sali 3",
+       "22:44",
+       "M. Wolska wychodzi z sali po zakończeniu seansu."
+      ]
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Sala 3 ma jedno wyjście przez hol (wyjście ewakuacyjne podłączone do alarmu — w czwartek nie było otwierane)."
+    },
+    {
+     "type": "h",
+     "text": "B. Siłownia »FitPoint«, ul. Polna 3 (ok. 3 km od antykwariatu)"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Karta",
+      "Wejście",
+      "Wyjście",
+      "Uwagi"
+     ],
+     "rows": [
+      [
+       "0412 — I. Sadowski",
+       "20:27",
+       "22:04",
+       "Kamera na sali: Sadowski widoczny na bieżni i przy sztangach w kilku ujęciach między 20:35 a 21:55."
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "text": "C. Restauracja »Pod Lipami«, ul. Kasztanowa 12"
+    },
+    {
+     "type": "p",
+     "text": "Restauracja ma kamerę tylko przy kasie (nagranie nadpisuje się co 24 h — <b>czwartkowe nagranie już nadpisane</b>). Zabezpieczono wydruk rachunku stolika nr 7 z systemu kasowego (dok. 18) oraz książkę rezerwacji: »16.10 — 20:00 — Zieliński — 2 os. — st. 7«."
+    },
+    {
+     "type": "h",
+     "text": "D. Ul. Ogrodowa / Kasztanowa"
+    },
+    {
+     "type": "p",
+     "text": "Brak kamer miejskich w bezpośrednim sąsiedztwie antykwariatu. Brama z podwórza antykwariatu wychodzi na ul. Kasztanową; pieszo z tylnych drzwi do restauracji »Pod Lipami« — ok. 400 m, <b>5–6 minut</b> (sprawdzone przez policjanta)."
+    }
+   ]
+  },
+  {
+   "id": "d18",
+   "no": "18",
+   "category": "Dowody",
+   "title": "Paragony i dowody od podejrzanych",
+   "subtitle": "Kopie. Oryginały w magazynie dowodów rzeczowych.",
+   "blocks": [
+    {
+     "type": "receipts",
+     "items": [
+      {
+       "lines": [
+        "## KINO APOLLO",
+        "Al. Słoneczna 40, Kalinów",
+        "---",
+        "BILET NORMALNY",
+        "Film: »Cisza nad jeziorem«",
+        "Data: 16.10.2026  Godz: 20:30",
+        "Sala: 3   Rząd: F   Miejsce: 11",
+        "Czas trwania: 128 min + reklamy",
+        "---",
+        "Cena:                 29,00 zł",
+        "Sprzedano: 16.10.2026 20:40:12"
+       ]
+      },
+      {
+       "lines": [
+        "## KINO APOLLO — BAR",
+        "---",
+        "Popcorn duży solony      22,00",
+        "Woda niegaz. 0,5        7,00",
+        "---",
+        "SUMA PLN                29,00",
+        "Karta ****8821",
+        "16.10.2026          20:48:33",
+        "Nr paragonu: 0007731"
+       ]
+      },
+      {
+       "lines": [
+        "## PARKING »APOLLO«",
+        "---",
+        "Wjazd:   16.10.2026  20:34",
+        "Wyjazd:  16.10.2026  22:51",
+        "Czas postoju:          2 h 17 min",
+        "Rej.: DKL 4W117",
+        "---",
+        "Opłata:                 9,00 zł"
+       ]
+      },
+      {
+       "lines": [
+        "## LOMBARD »ZŁOTY KLUCZ«",
+        "ul. Długa 4",
+        "---",
+        "KWIT ZASTAWNY nr 2026/1187",
+        "Data: 09.10.2026",
+        "Przedmiot: zegarek kieszonkowy",
+        "Omega, koperta srebrna, ok. 1915",
+        "Zastawiający: Sadowski Igor",
+        "Kwota pożyczki:       1 200,00 zł",
+        "Termin wykupu:  09.11.2026"
+       ]
+      },
+      {
+       "lines": [
+        "## RESTAURACJA »POD LIPAMI«",
+        "ul. Kasztanowa 12, Kalinów",
+        "---",
+        "RACHUNEK — STOLIK 7   Kelner: Tomasz B.",
+        "Otwarcie: 16.10.2026 20:04   Goście: 2",
+        "---",
+        "20:04  Woda gaz. 0,75 l       1x  14,00",
+        "20:06  Wino białe 150 ml     1x  24,00",
+        "20:41  Zupa krem z dyni       1x  21,00",
+        "21:36  Whisky 2x40 ml         1x  38,00",
+        "21:41  Polędwica wołowa       1x  89,00",
+        "21:41  Dorsz z masłem         1x  64,00",
+        "21:58  Wino białe 150 ml     1x  24,00",
+        "22:12  Espresso               2x  22,00",
+        "---",
+        "RAZEM PLN                     296,00",
+        "Karta ****3310 (P. ZIELIŃSKI)",
+        "Zamknięcie: 16.10.2026 22:31:07"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d19",
+   "no": "19",
+   "category": "Dowody",
+   "title": "Notes ofiary — strony zabezpieczone",
+   "subtitle": "Czarny notes w twardej oprawie, znaleziony w szufladzie biurka. Ostatnie wpisy.",
+   "blocks": [
+    {
+     "type": "handwriting",
+     "entries": [
+      {
+       "date": "pon. 13.10",
+       "lines": [
+        "Zegar ścienny na zapleczu stanął — sprężyna. Zamówić u Brzezińskiego (czeka ok. 2 tyg.)."
+       ]
+      },
+      {
+       "date": "wt. 14.10",
+       "lines": [
+        "Malinowski przyniósł swojego »Le Roya« do czyszczenia. Piękna skrzynia. Dziwne — śruby w mechanizmie wyglądają na nowe.",
+        "Kral znowu o starodruk. Muszę mu wreszcie powiedzieć, że poszedł do Krakowa."
+       ]
+      },
+      {
+       "date": "śr. 15.10",
+       "lines": [
+        "Rozebrałem mechanizm Le Roya. Ślady frezowania maszynowego, stop mosiądzu nie z epoki. To NIE jest XVIII wiek. Najwyżej kilka lat. Malinowski zapłacił 186 tys. — z certyfikatem autentyczności nr 0912 podpisanym przez <u>P.Z.</u>!!",
+        "Paweł nie mógł się pomylić. Nie Paweł. Albo ktoś go oszukał, albo... Nie chcę o tym myśleć.",
+        "Marta — kłótnia. Za ostro. Zadzwonić do niej jutro, pomóc, ale na moich warunkach.",
+        "Brakuje Omegi kieszonkowej z gabloty w magazynie. Porozmawiać z Igorem w poniedziałek — spokojnie."
+       ]
+      },
+      {
+       "date": "czw. 16.10",
+       "lines": [
+        "Rozmawiałem z Pawłem przez telefon. Najpierw udawał, że nie wie, o co chodzi, potem się zdenerwował. Chce przyjść wieczorem i »wszystko wyjaśnić«. Dam mu ten jeden wieczór. Jeśli nie wyjaśni — w poniedziałek wysyłam pismo do Stowarzyszenia i mówię Malinowskiemu.",
+        "Malinowski dzwonił, pyta, kiedy odbiór. Powiedziałem, że w przyszłym tygodniu."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "small",
+     "text": "Kolejne strony notesu puste."
+    }
+   ]
+  },
+  {
+   "id": "d21",
+   "no": "21",
+   "category": "Dowody",
+   "title": "Mapa okolicy antykwariatu",
+   "subtitle": "Opracowanie: KMP Kalinów. Odległości zmierzone przez funkcjonariuszy.",
+   "blocks": [
+    {
+     "type": "svg",
+     "svg": "<svg width=\"481.8897637795276\" height=\"425.19685039370086\" preserveAspectRatio=\"xMinYMin meet\" viewBox=\"0 0 481 425\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.0\" fill-rule=\"evenodd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n\t<title>...</title>\n\t<desc>...</desc>\n\t<clipPath id=\"clip\">\n\t\t<rect x=\"0\" y=\"0\" width=\"481.8897637795276\" height=\"425.19685039370086\"/>\n\t</clipPath>\n\t<g id=\"group\" transform=\"scale(1,-1) translate(0,-425)\" style=\"clip-path: url(#clip)\">\n\t\t<g transform=\"\">\n\t\t\t<rect x=\"0\" y=\"0\" width=\"481.8897637795276\" height=\"425.19685039370086\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,89%); fill-rule: evenodd;\"/>\n\t\t\t<path d=\"M 0,283.464567 L 481.889764,283.464567 Z\" style=\"stroke: rgb(63%,61%,54%); stroke-linecap: butt; stroke-width: 22;\"/>\n\t\t\t<path d=\"M 0,283.464567 L 481.889764,283.464567 Z\" style=\"stroke: rgb(99%,98%,96%); stroke-linecap: butt; stroke-width: 19;\"/>\n\t\t\t<text x=\"17.007874015748033\" y=\"280.62992125984255\" style=\"font-family: SansB; font-size: 8px;fill: rgb(41%,39%,35%); stroke:none;\" transform=\"translate(0,561) scale(1,-1)\">ul. Ogrodowa</text>\n\t\t\t<path d=\"M 311.811024,0 L 311.811024,425.19685 Z\" style=\"stroke: rgb(63%,61%,54%); stroke-linecap: butt; stroke-width: 22;\"/>\n\t\t\t<path d=\"M 311.811024,0 L 311.811024,425.19685 Z\" style=\"stroke: rgb(99%,98%,96%); stroke-linecap: butt; stroke-width: 19;\"/>\n\t\t\t<text x=\"0\" y=\"0\" style=\"font-family: SansB; font-size: 8px;fill: rgb(41%,39%,35%); stroke:none;\" transform=\"translate(0,0) scale(1,-1)\"></text>\n\t\t\t<path d=\"M 0,113.385827 L 481.889764,113.385827 Z\" style=\"stroke: rgb(63%,61%,54%); stroke-linecap: butt; stroke-width: 22;\"/>\n\t\t\t<path d=\"M 0,113.385827 L 481.889764,113.385827 Z\" style=\"stroke: rgb(99%,98%,96%); stroke-linecap: butt; stroke-width: 19;\"/>\n\t\t\t<text x=\"17.007874015748033\" y=\"110.55118110236222\" style=\"font-family: SansB; font-size: 8px;fill: rgb(41%,39%,35%); stroke:none;\" transform=\"translate(0,221) scale(1,-1)\">ul. Młyńska</text>\n\t\t\t<rect x=\"28.34645669291339\" y=\"141.73228346456693\" width=\"255.11811023622047\" height=\"113.38582677165357\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(81%,87%,74%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"119.05511811023624\" y=\"192.75590551181105\" style=\"font-family: Serif; font-size: 9px;fill: rgb(30%,41%,22%); stroke:none;\" transform=\"translate(0,385) scale(1,-1)\">Skwer Lipowy</text>\n\t\t\t<rect x=\"28.34645669291339\" y=\"311.8110236220473\" width=\"127.55905511811025\" height=\"90.70866141732284\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"170.07874015748033\" y=\"311.8110236220473\" width=\"119.05511811023624\" height=\"90.70866141732284\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"340.15748031496065\" y=\"311.8110236220473\" width=\"119.05511811023626\" height=\"90.70866141732284\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"340.15748031496065\" y=\"141.73228346456693\" width=\"119.05511811023626\" height=\"113.38582677165357\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"28.34645669291339\" y=\"14.173228346456694\" width=\"255.11811023622047\" height=\"70.86614173228347\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<rect x=\"340.15748031496065\" y=\"14.173228346456694\" width=\"119.05511811023626\" height=\"70.86614173228347\" style=\"stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,82%,75%); fill-rule: evenodd;\"/>\n\t\t\t<circle cx=\"204.0944881889764\" cy=\"311.8110236220473\" r=\"9.070866141732285\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,13%,10%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"141.73228346456693\" y=\"379.8425196850394\" style=\"font-family: SansB; font-size: 8.3px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,759) scale(1,-1)\">A  Antykwariat »Pod Zegarem«</text>\n\t\t\t<text x=\"141.73228346456693\" y=\"369.0708661417323\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,738) scale(1,-1)\">ul. Ogrodowa 7 (front)</text>\n\t\t\t<path d=\"M 204.094488,320.314961 L 204.094488,357.165354 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 0.5;\"/>\n\t\t\t<rect x=\"187.08661417322836\" y=\"396.85039370078744\" width=\"39.68503937007873\" height=\"14.17322834645671\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,67%,57%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"232.44094488188978\" y=\"409.60629921259846\" style=\"font-family: Sans; font-size: 6.5px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,819) scale(1,-1)\">podwórze / drzwi zaplecza → przejście na Kasztanową</text>\n\t\t\t<path d=\"M 226.771654,402.519685 L 311.811024,402.519685 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 2, 2;\"/>\n\t\t\t<path d=\"M 311.811024,402.519685 L 311.811024,317.480315 Z\" style=\"stroke: rgb(63%,13%,10%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 2, 2;\"/>\n\t\t\t<circle cx=\"311.8110236220473\" cy=\"204.0944881889764\" r=\"9.070866141732285\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,82%,30%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"323.1496062992126\" y=\"215.43307086614175\" style=\"font-family: SansB; font-size: 8.3px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,430) scale(1,-1)\">B  Kosz na śmieci</text>\n\t\t\t<circle cx=\"325.984251968504\" cy=\"130.3937007874016\" r=\"9.070866141732285\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 1; fill: rgb(23%,41%,65%); fill-rule: evenodd;\"/>\n\t\t\t<text x=\"334.488188976378\" y=\"93.54330708661418\" style=\"font-family: SansB; font-size: 8.3px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,187) scale(1,-1)\">C  Restauracja »Pod Lipami«</text>\n\t\t\t<text x=\"334.488188976378\" y=\"82.7716535433071\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,165) scale(1,-1)\">ul. Kasztanowa 12</text>\n\t\t\t<path d=\"M 28.346457,413.858268 L 113.385827,413.858268 Z\" style=\"stroke: rgb(13%,12%,10%); stroke-linecap: butt; stroke-width: 2;\"/>\n\t\t\t<text x=\"28.34645669291339\" y=\"401.10236220472444\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,802) scale(1,-1)\">0</text>\n\t\t\t<text x=\"102.0472440944882\" y=\"401.10236220472444\" style=\"font-family: Sans; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,802) scale(1,-1)\">75 m</text>\n\t\t\t<text x=\"450.32168891486225\" y=\"408.1889763779528\" style=\"font-family: SansB; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;\" transform=\"translate(0,816) scale(1,-1)\">N ↑</text>\n\t\t\t<text x=\"318.8976377952756\" y=\"294.80314960629926\" style=\"font-family: SansB; font-size: 8px;fill: rgb(41%,39%,35%); stroke:none;\" transform=\"translate(0,589) scale(1,-1)\">ul. Kasztanowa</text>\n\t\t</g>\n\t</g>\n</svg>\n"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Trasa",
+      "Odległość",
+      "Czas"
+     ],
+     "rows": [
+      [
+       "Antykwariat (tylne drzwi) → kosz B → restauracja »Pod Lipami« (C)",
+       "ok. 400 m",
+       "5–6 min pieszo"
+      ],
+      [
+       "Antykwariat → kino »Apollo«",
+       "ok. 11 km",
+       "ok. 25 min samochodem"
+      ],
+      [
+       "Antykwariat → siłownia »FitPoint«",
+       "ok. 3 km",
+       "ok. 10 min rowerem"
+      ],
+      [
+       "Antykwariat → dom E. Krala (ul. Wiśniowa, Zalesie)",
+       "ok. 14 km",
+       "ok. 25–30 min samochodem"
+      ],
+      [
+       "Antykwariat → biuro dr. P. Zielińskiego",
+       "ok. 1 km",
+       "ok. 12 min pieszo"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "unlocks": [
+  {
+   "id": "przeszukanie",
+   "title": "Wniosek o przeszukanie okolicy",
+   "prompt": "Patrol przeszuka podwórze i kosze w okolicy, jeśli wskażesz, czego szukać. Jakiego przedmiotu brakuje na biurku ofiary?",
+   "placeholder": "np. nazwa przedmiotu",
+   "answers": [
+    "sowa",
+    "sowy",
+    "sowę",
+    "sówka",
+    "przycisk do papieru"
+   ],
+   "match": "contains",
+   "message": "Patrol wrócił z przeszukania. Raport trafił do akt (dok. 22).",
+   "documents": [
+    {
+     "id": "d22",
+     "no": "22",
+     "category": "Raporty",
+     "title": "Raport z przeszukania okolicy",
+     "subtitle": "Patrol KMP Kalinów · 17.10.2026, godz. 11:30–13:10",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Na wniosek prowadzącej śledztwo przeszukano podwórze antykwariatu, bramę oraz kosze na śmieci przy ul. Ogrodowej i Kasztanowej."
+      },
+      {
+       "type": "h",
+       "text": "5.7 Przedmiot z kosza przy ul. Kasztanowej (zabezpieczony 17.10, 12:40)"
+      },
+      {
+       "type": "p",
+       "text": "Podczas przeszukania okolicy w publicznym koszu na śmieci przy ul. Kasztanowej (mapa — dok. 21, punkt B) znaleziono <b>brązową figurkę sowy</b> (przycisk do papieru), wys. 14 cm, masa 1,6 kg, okrągła podstawa śr. 8 cm, korpus pokryty rzeźbionymi »piórami« w kształcie łusek. Na krawędzi podstawy <b>ślady krwi</b> — grupa i wstępny profil zgodne z krwią ofiary. Powierzchnia <b>wytarta</b> — brak linii papilarnych. Na figurce włókna ciemnoszarej wełny (porównanie z 5.1: zgodne wizualnie)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laptop",
+   "title": "Wniosek o złamanie hasła laptopa ofiary",
+   "prompt": "Informatyk śledczy złamie hasło szybciej, jeśli poda mu się słowo-klucz z ostatnich notatek ofiary. Jakiej marki (sygnatury) był zegar, który niepokoił Henryka Wolskiego?",
+   "placeholder": "nazwisko zegarmistrza",
+   "answers": [
+    "Le Roy",
+    "Julien Le Roy",
+    "leroy"
+   ],
+   "match": "exact",
+   "message": "Laptop odblokowany. W kopiach roboczych znaleziono niewysłany e-mail (dok. 20).",
+   "documents": [
+    {
+     "id": "d20",
+     "no": "20",
+     "category": "Dowody",
+     "title": "Wersja robocza e-maila z laptopa ofiary",
+     "subtitle": "Program pocztowy na laptopie z biurka. Wiadomość niewysłana, zapisana w folderze »Kopie robocze«.",
+     "blocks": [
+      {
+       "type": "email",
+       "headers": [
+        [
+         "Od",
+         "h.wolski@podzegarem.pl"
+        ],
+        [
+         "Do",
+         "komisja.etyki@sraz.org.pl"
+        ],
+        [
+         "Temat",
+         "Zgłoszenie — fałszywy certyfikat autentyczności nr 0912"
+        ],
+        [
+         "Zapisano",
+         "16.10.2026, 18:47"
+        ]
+       ],
+       "body": [
+        "Szanowni Państwo,",
+        "jako członek Stowarzyszenia Rzeczoznawców Antyków i Zegarów od 1994 roku czuję się w obowiązku zgłosić, że zegar kominkowy sygnowany »Julien Le Roy à Paris«, sprzedany w maju 2026 r. p. Andrzejowi Malinowskiemu za kwotę 186 000 zł, jest <b>współczesną kopią</b>. Mechanizm nosi ślady obróbki na maszynach CNC, a skład stopu mosiądzu wyklucza XVIII wiek.",
+        "Do zegara dołączono certyfikat autentyczności nr 0912, podpisany przez <b>dr. Pawła Zielińskiego</b>. Z dokumentów sprzedaży, które pokazał mi p. Malinowski, wynika ponadto, że sprzedawcą była spółka, której wspólnikiem jest szwagier dr. Zielińskiego. Obawiam się, że to nie jest jednorazowa pomyłka — certyfikaty dr. Zielińskiego towarzyszyły w ostatnich dwóch latach co najmniej pięciu podobnym transakcjom.",
+        "Wiadomość wyślę w poniedziałek. Zanim to zrobię, chcę dać Pawłowi szansę, by sam wszystko wyjaśnił. [DOKOŃCZYĆ — dołączyć zdjęcia mechanizmu]",
+        "Z poważaniem,<br>Henryk Wolski"
+       ]
+      },
+      {
+       "type": "small",
+       "text": "Uwaga technika: laptop zabezpieczony hasłem, które znał tylko właściciel; data ostatniego logowania 16.10, 18:52."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "who",
+   "label": "KTO zabił Henryka Wolskiego?",
+   "type": "choice",
+   "points": 4,
+   "answer": "zielinski",
+   "options": [
+    {
+     "id": "marta",
+     "label": "Marta Wolska — córka"
+    },
+    {
+     "id": "igor",
+     "label": "Igor Sadowski — pracownik"
+    },
+    {
+     "id": "kral",
+     "label": "Edward Kral — kolekcjoner"
+    },
+    {
+     "id": "zielinski",
+     "label": "dr Paweł Zieliński — rzeczoznawca"
+    },
+    {
+     "id": "wypadek",
+     "label": "Nikt — to był wypadek"
+    }
+   ]
+  },
+  {
+   "id": "weapon",
+   "label": "CZYM zadano śmiertelny cios?",
+   "type": "choice",
+   "points": 2,
+   "answer": "sowa",
+   "options": [
+    {
+     "id": "drabina",
+     "label": "Uderzenie o drabinę przy upadku"
+    },
+    {
+     "id": "zegar",
+     "label": "Spadający zegar ścienny"
+    },
+    {
+     "id": "ksiazka",
+     "label": "Ciężki tom z górnej półki"
+    },
+    {
+     "id": "sowa",
+     "label": "Brązowa figurka sowy (przycisk do papieru)"
+    },
+    {
+     "id": "czajnik",
+     "label": "Czajnik elektryczny"
+    }
+   ]
+  },
+  {
+   "id": "motive",
+   "label": "DLACZEGO? Jaki był motyw?",
+   "type": "choice",
+   "points": 2,
+   "answer": "certyfikat",
+   "options": [
+    {
+     "id": "spadek",
+     "label": "Długi i spadek po ojcu"
+    },
+    {
+     "id": "kradziez",
+     "label": "Ukrycie kradzieży zegarka Omega"
+    },
+    {
+     "id": "starodruk",
+     "label": "Zemsta za sprzedany komuś innemu starodruk"
+    },
+    {
+     "id": "certyfikat",
+     "label": "Uciszenie ofiary, która chciała ujawnić fałszywy certyfikat na podrobiony zegar"
+    },
+    {
+     "id": "napad",
+     "label": "Napad rabunkowy"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "label": "JAK sprawca upozorował wypadek i zbudował sobie alibi? (opisz własnymi słowami)",
+   "type": "text",
+   "points": 2,
+   "placeholder": "Opisz, co sprawca zrobił na miejscu zbrodni i po wyjściu…",
+   "keywords": [
+    "zegar",
+    "wskaz",
+    "22:30",
+    "drabin",
+    "filizank",
+    "kalendarz",
+    "klamk",
+    "sms",
+    "rękawiczk",
+    "restaurac",
+    "rachun"
+   ],
+   "min_keywords": 4
+  }
+ ],
+ "hints": {
+  "who": [
+   "Nie ufaj zegarowi. Zestaw zeznanie Igora (dok. 7) z raportem laboratorium (dok. 5.1). Komu zależało, żeby śmierć »nastąpiła« o 22:30? Kto ma najmocniejsze alibi właśnie na tę godzinę?",
+   "Ustal prawdziwą godzinę wizyty gościa. Dziennik alarmu (dok. 15): ofiara weszła o 20:51, ktoś wszedł o 20:58, ktoś wyszedł o 21:24. O 21:02 ofiara mówi córce, że »ma gościa« (dok. 8, 16). Telefon odblokowano po raz ostatni o 21:21 (dok. 5.6).",
+   "Sprawdź alibi każdego podejrzanego dla okna 20:58–21:24. Kino (dok. 17A), siłownia (17B), sąsiadka Krala (dok. 13) — trzy osoby są poza grą. Teraz porównaj zeznania Zielińskiego i jego żony z zeznaniem kelnera (dok. 12) i godzinami na rachunku (dok. 18)."
+  ],
+  "weapon": [
+   "Czego brakuje na biurku? Porównaj punkt 8 notatki z oględzin (dok. 2) z zeznaniem Igora (dok. 7).",
+   "Sekcja (dok. 4) opisuje ornament odciśnięty w ranie. Złóż wniosek o przeszukanie okolicy — raport z przeszukania (dok. 22) opisuje znaleziony przedmiot. Gdzie stał kosz (dok. 21)?"
+  ],
+  "motive": [
+   "Odbitka grafitowa z kalendarza (dok. 5.4): kto to »P.Z.«? I o jakim zegarze mowa?",
+   "Przeczytaj notes ofiary (dok. 19) i wersję roboczą e-maila (dok. 20). Co by się stało, gdyby e-mail został wysłany w poniedziałek?"
+  ],
+  "how": [
+   "Policz wszystkie »porządki« zrobione na miejscu: drabina, zegar, druga filiżanka, klamka, kalendarz, SMS, sowa. Kto miał szare wełniane rękawiczki (dok. 11) i kto prosił o dokładną godzinę na rachunku (dok. 12)?"
+  ]
+ },
+ "hint_penalty": 1,
+ "ranks": [
+  {
+   "min": 9,
+   "label": "Komisarz stawia kawę — mistrzowska robota!"
+  },
+  {
+   "min": 6,
+   "label": "Solidna robota śledcza."
+  },
+  {
+   "min": 3,
+   "label": "Sprawa trafi do sądu, ale obrona ma pole do popisu."
+  },
+  {
+   "min": 0,
+   "label": "Prokurator zamknął sprawę jako wypadek…"
+  }
+ ],
+ "solution": [
+  {
+   "type": "box",
+   "title": "Rozwiązanie sprawy nr 26/417/K",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<b>KTO:</b> dr Paweł Zieliński, rzeczoznawca."
+    },
+    {
+     "type": "p",
+     "text": "<b>CZYM:</b> brązową figurką sowy — przyciskiem do papieru z biurka ofiary."
+    },
+    {
+     "type": "p",
+     "text": "<b>DLACZEGO:</b> Wolski odkrył, że Zieliński wystawił fałszywy certyfikat autentyczności (nr 0912) na podrobiony zegar »Le Roy« sprzedany za 186 000 zł przez spółkę jego szwagra — i w poniedziałek zamierzał go zgłosić. Groziło to Zielińskiemu końcem kariery i zarzutami oszustwa."
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Co naprawdę wydarzyło się w czwartek"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Godzina",
+    "Wydarzenie",
+    "Dowód"
+   ],
+   "rows": [
+    [
+     "16:12",
+     "Wolski dzwoni do biura Zielińskiego i konfrontuje go w sprawie certyfikatu.",
+     "16, 19"
+    ],
+    [
+     "17:05 / 17:31",
+     "Zieliński pisze SMS-a z prośbą o spotkanie; Wolski odpisuje: »O 21 u mnie, wejście od podwórza«.",
+     "16, 5.6"
+    ],
+    [
+     "18:47",
+     "Wolski zapisuje wersję roboczą e-maila do komisji etyki.",
+     "20"
+    ],
+    [
+     "20:00",
+     "Żona Zielińskiego przychodzi do restauracji SAMA (pierwsze pozycje na rachunku tylko dla jednej osoby).",
+     "12, 18"
+    ],
+    [
+     "20:51",
+     "Wolski wraca do antykwariatu i rozbraja alarm (kod 01).",
+     "15"
+    ],
+    [
+     "20:58",
+     "Zieliński wchodzi tylnymi drzwiami. Herbata w porcelanie, ciastka, Zieliński pali cygaretkę Café Crème.",
+     "15, 7, 2, 5.3"
+    ],
+    [
+     "21:02",
+     "Wolski dzwoni do córki: »mam gościa«. Córka słyszy w tle męski głos.",
+     "8, 16, 17A"
+    ],
+    [
+     "ok. 21:05–21:15",
+     "Rozmowa się nie klei. Gdy Wolski odwraca się (np. do regału), Zieliński uderza go w tył głowy sową z brązu.",
+     "4, 22"
+    ],
+    [
+     "21:15–21:24",
+     "Upozorowanie wypadku: przewraca drabinę, zrzuca książki i zegar, w rękawiczkach przestawia wskazówki na 10:30 (22:30), myje swoją filiżankę, wyrywa kartkę z kalendarza, wyciera klamkę, o 21:21 odblokowuje telefon ofiary i kasuje swój SMS. Zapomina o niedopałku i o tym, że pisano z naciskiem.",
+     "2, 5.1–5.6"
+    ],
+    [
+     "21:24",
+     "Wychodzi tylnymi drzwiami, przez podwórze na Kasztanową. Wyrzuca sowę do kosza (B).",
+     "15, 21, 22"
+    ],
+    [
+     "ok. 21:30–21:35",
+     "Wchodzi do restauracji »od strony Kasztanowej«, zdyszany, zamawia podwójną whisky (21:36).",
+     "12, 18"
+    ],
+    [
+     "22:31",
+     "Płaci kartą i prosi o dokładną godzinę na rachunku — chce mieć »dowód«, że o 22:30 był w restauracji.",
+     "12, 18"
+    ],
+    [
+     "21:48, 22:15",
+     "Kral dzwoni z domu — Wolski już nie żyje, nie odbiera.",
+     "16, 9"
+    ]
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Kluczowe dowody przeciw Zielińskiemu"
+  },
+  {
+   "type": "list",
+   "items": [
+    "<b>Fałszywa godzina zgonu.</b> Zegar nie chodził od poniedziałku (pęknięta, skorodowana sprężyna — dok. 5.1; zeznanie Igora — dok. 7: wskazówki stały na 4:50). Ktoś celowo przestawił wskazówki na 10:30, czyli »22:30«. Jedyną osobą, której ta godzina dawała alibi, był Zieliński — płacił w restauracji o 22:31 i specjalnie prosił o godzinę na rachunku.",
+    "<b>Prawdziwe okno zbrodni: 20:58–21:24.</b> Alarm (dok. 15) pokazuje wejście gościa o 20:58 i wyjście o 21:24. O 21:02 ofiara żyje i ma gościa (dok. 8, 16), o 21:21 ktoś odblokowuje jej telefon i kasuje SMS (dok. 5.6), o 21:48 już nie odbiera. Herbatę i ciastka zjadła najwyżej 30–40 min przed śmiercią (dok. 4).",
+    "<b>Fałszywe alibi.</b> Zieliński i jego żona twierdzą, że byli w restauracji razem od 20:00 (dok. 10, 11). Kelner (dok. 12) i rachunek (dok. 18) mówią co innego: do 21:36 zamówienia są jednoosobowe, Zieliński zjawia się ok. 21:30 od strony Kasztanowej — 5–6 minut pieszo od tylnych drzwi antykwariatu (dok. 17D, 21).",
+    "<b>Kłamstwo o kontakcie z ofiarą.</b> Twierdzi, że nie rozmawiał z Wolskim od dwóch tygodni (dok. 10), a billing pokazuje rozmowę z jego biurem o 16:12 i SMS-y o 17:05/17:31 (dok. 16). Zna też szczegóły kłótni z Kralem i długów córki, o których nie mógł wiedzieć »z miasta«.",
+    "<b>Ślady na miejscu.</b> Niedopałek cygaretki Café Crème (dok. 5.3) — ofiara nie paliła, a cygaretki u niej palił tylko Zieliński (dok. 7). Kalendarz: »21:00 — P.Z. — Le Roy !!« (dok. 5.4). Szare wełniane włókna na wskazówce zegara i na sowie (dok. 5.1, 22) — Zieliński nosił tego wieczoru szare wełniane rękawiczki (dok. 11).",
+    "<b>Narzędzie zbrodni.</b> Sowa zniknęła z biurka (dok. 2 pkt 8, dok. 7), jej łuskowate »pióra« odpowiadają ornamentowi w ranie (dok. 4), na podstawie jest krew ofiary, a znaleziono ją w koszu dokładnie na trasie antykwariat → restauracja (dok. 22, 21).",
+    "<b>Motyw.</b> Notes (dok. 19) i e-mail (dok. 20): certyfikat 0912 podpisany przez P.Z., sprzedaż przez spółkę szwagra, pięć podobnych transakcji. Wolski dał mu »ten jeden wieczór«."
+   ]
+  },
+  {
+   "type": "h",
+   "text": "Dlaczego to nie pozostali?"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Podejrzany",
+    "Fałszywy trop",
+    "Dlaczego niewinny"
+   ],
+   "rows": [
+    [
+     "Marta Wolska",
+     "Długi, spadek, kłótnia w środę.",
+     "W kinie od 20:40 do 22:44 (dok. 17A, 18). O 20:58 nie mogła wejść do sklepu oddalonego o 25 min jazdy — o 20:48 kupowała popcorn, o 21:02 rozmawiała z ojcem w holu kina. Jej alibi obejmuje zarówno prawdziwą godzinę zbrodni (ok. 21:00), jak i fałszywą (22:30)."
+    ],
+    [
+     "Igor Sadowski",
+     "Ukradł zegarek Omega, znalazł ciało, zna kod alarmu.",
+     "Siłownia 20:27–22:04, widoczny na kamerach (dok. 17B). Kradzież jest prawdziwa (dok. 18, 19), ale to osobne przestępstwo. Poza tym gdyby to on był sprawcą, nie zostawiłby alarmu rozbrojonego — mógł go uzbroić swoim kodem."
+    ],
+    [
+     "Edward Kral",
+     "Groził ofierze »Jeszcze pan pożałuje!«.",
+     "21:10–21:30 rozmawiał z sąsiadką przed blokiem 14 km dalej (dok. 13). Dzwonił do ofiary z telefonu stacjonarnego w domu o 21:48 i 22:15 (dok. 16) — chciał przeprosić."
+    ]
+   ]
+  },
+  {
+   "type": "note",
+   "text": "Epilog: Konfrontowany z rachunkiem i zeznaniem kelnera Paweł Zieliński milczał przez godzinę. Gdy laboratorium potwierdziło zgodność włókien z jego rękawiczkami, przyznał się. Twierdził, że »chciał tylko porozmawiać«, ale Henryk »nie chciał słuchać«. Ewa Zielińska usłyszała zarzut składania fałszywych zeznań. Igor Sadowski wykupił Omegę z lombardu i oddał ją Marcie Wolskiej, która postanowiła poprowadzić antykwariat ojca. Zegar ze ściany wrócił z naprawy — chodzi do dziś."
+  }
+ ]
+}
