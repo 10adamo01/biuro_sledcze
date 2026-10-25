@@ -9,6 +9,9 @@ PARAMETRY SPRAWY (uzupełnij lub zostaw „dowolne” — wtedy wybierz sam)
 - Liczba podejrzanych: 4
 - Długość: 16–22 dokumenty
 - Liczba wniosków odblokowujących dokumenty: 2
+- Liczba wiadomości fabularnych (zwrotów akcji): 2
+- Liczba sprzeczności do znalezienia: 4
+- Seria (opcjonalnie): brak
 - Id sprawy: wymyśl sam (małe litery, cyfry, myślniki, np. "zatrute-wesele")
 - Dodatkowe życzenia: brak
 
@@ -45,6 +48,10 @@ Zwróć DOKŁADNIE taką strukturę:
   "hints": { "who": ["…","…","…"], "weapon": ["…","…"], "motive": ["…","…"], "how": ["…"] },
   "hint_penalty": 1,
   "ranks": [ { "min": 9, "label": "…" }, { "min": 6, "label": "…" }, { "min": 3, "label": "…" }, { "min": 0, "label": "…" } ],
+  "story": [ WIADOMOŚCI FABULARNE ],
+  "confrontations": [ SPRZECZNOŚCI ],
+  "time_limit": 90,
+  "series": { "id": "id-serii", "title": "Nazwa serii", "episode": 1 },
   "solution": [ BLOKI ]
 }
 
@@ -82,6 +89,23 @@ WNIOSEK (odblokowanie dokumentów):
 - "match": "exact" (całe słowo/fraza) albo "contains" (odpowiedź do 40 znaków zawiera jedną z "answers"; używaj rdzeni słów, np. "sow" dla „sowa/sowę/sówka”).
 - Podaj wiele wariantów odpowiedzi (odmiany, synonimy, nazwisko z imieniem i bez).
 
+WIADOMOŚCI FABULARNE ("story") — zwroty akcji przychodzące w trakcie gry jako wiadomości od przełożonego/świadka:
+{ "id": "malinowski", "trigger": { "type": "unlock", "unlock": "laptop" }, "from": "insp. Jerzy Malec", "title": "Zgłosił się nowy świadek",
+  "blocks": [ BLOKI ], "documents": [ DOKUMENTY ] }
+- "trigger": {"type":"unlock","unlock":"<id wniosku>"} (po odblokowaniu wniosku), {"type":"minutes","minutes":40} (po X minutach gry) albo {"type":"start"} (od razu).
+- "documents" (opcjonalne) — nowe dokumenty dołączane do akt razem z wiadomością (numeruj dalej, po dokumentach z wniosków).
+- Dobre wiadomości: nowy świadek po odblokowaniu wniosku, presja czasu („prokurator chce zamknąć sprawę”), subtelna wskazówka po 40–60 min dla drużyn, które utknęły. Wiadomość NIE może zdradzać rozwiązania.
+
+SPRZECZNOŚCI ("confrontations") — gracze zestawiają dwa dokumenty, które sobie przeczą; trafiona para daje punkty bonusowe:
+{ "id": "zegar", "title": "Zegar nie chodził od poniedziałku", "a": ["d7"], "b": ["d5", "d19"], "points": 1,
+  "message": "Wyjaśnienie, co z tego wynika (z numerami dokumentów)." }
+- Para trafia, gdy gracz wybierze DOWOLNY dokument z "a" i DOWOLNY z "b" (w dowolnej kolejności). Ten sam dokument nie może być w "a" i "b", a dwie sprzeczności nie mogą mieć wspólnej pary.
+- Sprzeczności to kluczowe kroki rozumowania: kłamstwo w zeznaniu vs twardy dowód, fałszywe alibi vs rejestr, przestawiony zegar vs ekspertyza. Dodaj też 1 sprzeczność oczyszczającą niewinnego (np. jego alibi potwierdzone monitoringiem).
+- "message" nie może wprost wskazywać sprawcy — ma tylko potwierdzić fakt.
+
+"time_limit" — limit w minutach dla poziomu trudnego (zwykle górna granica czasu gry, np. 90 albo 120).
+"series" — tylko jeśli sprawa należy do serii (w parametrach). Kolejny odcinek: ten sam "id" serii, "episode" o 1 większy, powracające postacie i nawiązanie do poprzedniej sprawy w odprawie. Jeśli brak serii — pomiń pole "series".
+
 PYTANIA KOŃCOWE (zawsze te 4, w tej kolejności, łącznie 10 pkt):
 { "id": "who", "label": "KTO …?", "type": "choice", "points": 4, "answer": "id-opcji",
   "options": [ {"id":"…","label":"…"}, … ] }        ← wszyscy podejrzani + ewentualnie „to był wypadek/samobójstwo”
@@ -116,6 +140,8 @@ Przed oddaniem sprawdź listę kontrolną:
 [ ] Sprawcę wskazują co najmniej 3 niezależne dowody z różnych dokumentów.
 [ ] Godziny i odległości zgadzają się wszędzie (policz czasy przejazdu/dojścia).
 [ ] Odpowiedzi do wniosków da się znaleźć w jawnych aktach.
+[ ] Każdy "trigger.unlock" w "story" wskazuje istniejący wniosek; wiadomości nie zdradzają rozwiązania.
+[ ] Każda sprzeczność ma w "a" i "b" istniejące id dokumentów, a pary się nie powtarzają.
 [ ] "answer" w każdym pytaniu wyboru to id istniejącej opcji; podpowiedzi mają klucze who/weapon/motive/how.
 [ ] Wszystkie id dokumentów są unikalne; numery w tekstach („dok. 12”) wskazują właściwe dokumenty.
 [ ] JSON jest poprawny.

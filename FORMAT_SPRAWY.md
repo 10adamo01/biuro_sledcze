@@ -4,6 +4,7 @@ Jedna sprawa = **jeden plik `.json`**. Każdy gracz może założyć z nim pokó
 Strona sama rozdziela plik na część jawną (akta) i tajną (odpowiedzi, zablokowane dokumenty, podpowiedzi, rozwiązanie).
 Gracze **nie mają dostępu** do części tajnej, dopóki jej nie odblokują w grze.
 
+> Sprawę możesz też napisać lub poprawić w **✏️ Edytorze spraw** na stronie (formularze, bez JSON-a).
 > Najprościej generować sprawy gotowym promptem: na stronie **📖 Instrukcja → Prompt → Kopiuj prompt**
 > (albo plik `PROMPT_AI.md`). Ten dokument to szczegółowa dokumentacja formatu.
 
@@ -28,6 +29,10 @@ Przed wgraniem możesz sprawdzić plik przyciskiem **Podgląd pliku** (pokazuje 
   "hints":     { "who": ["…", "…"], "weapon": ["…"] },
   "hint_penalty": 1,
   "ranks":     [ { "min": 9, "label": "Mistrzowska robota!" }, { "min": 0, "label": "Sprawa umorzona…" } ],
+  "story":     [ /* wiadomości fabularne (zwroty akcji) */ ],
+  "confrontations": [ /* sprzeczności do znalezienia */ ],
+  "time_limit": 120,
+  "series":    { "id": "akta-rudnickiej", "title": "Akta komisarz Rudnickiej", "episode": 1 },
   "solution":  [ /* bloki — pokazywane po wysłaniu odpowiedzi */ ]
 }
 ```
@@ -40,7 +45,9 @@ Przed wgraniem możesz sprawdzić plik przyciskiem **Podgląd pliku** (pokazuje 
 | `subtitle`, `meta` | nie | podtytuł; `meta.players`, `meta.time`, `meta.difficulty`, `meta.author` |
 | `documents` | tak | lista dokumentów (min. 1) |
 | `questions` | tak | lista pytań (min. 1) |
-| `unlocks`, `hints`, `ranks`, `solution`, `intro` | nie | patrz niżej |
+| `unlocks`, `hints`, `ranks`, `story`, `confrontations`, `solution`, `intro` | nie | patrz niżej |
+| `time_limit` | nie | limit minut na poziomie trudnym (domyślnie 90) |
+| `series` | nie | seria: `id`, `title`, `episode` (od 1) |
 
 ---
 
@@ -112,9 +119,55 @@ Gracze składają wniosek, wpisując odpowiedź. Trafna odpowiedź dodaje dokume
 - `match: "contains"` — wystarczy, że odpowiedź (do 40 znaków) **zawiera** jedną z `answers`. Dobre dla rdzeni słów, np. `"sow"` łapie „sowa”, „sowę”, „sówka”.
 - Nietrafione próby widzi cała drużyna w dzienniku — bez kar punktowych.
 
+## Wiadomości fabularne (`story`) — zwroty akcji
+
+W trakcie gry do drużyny przychodzą wiadomości (np. od przełożonego). Pojawiają się w **📨 Wiadomościach** w aktach z wyskakującym powiadomieniem i mogą dołączać nowe dokumenty.
+
+```json
+{
+  "id": "malinowski",
+  "trigger": { "type": "unlock", "unlock": "laptop" },
+  "from": "insp. Jerzy Malec",
+  "title": "Zgłosił się właściciel zegara",
+  "blocks": [ { "type": "p", "text": "Notatka z rozmowy jest w aktach (dok. 23)." } ],
+  "documents": [ { "id": "d23", "no": "23", "title": "…", "blocks": [ … ] } ]
+}
+```
+
+| `trigger` | Kiedy przychodzi |
+|---|---|
+| `{ "type": "start" }` | od razu po założeniu pokoju |
+| `{ "type": "unlock", "unlock": "id-wniosku" }` | gdy drużyna odblokuje dany wniosek |
+| `{ "type": "minutes", "minutes": 40 }` | po 40 minutach od założenia pokoju |
+
+Treść wiadomości i dołączone dokumenty są tajne, dopóki wiadomość nie przyjdzie.
+
+## Sprzeczności (`confrontations`)
+
+Gracze klikają **⚔️ Konfrontuj** przy dokumencie i wybierają drugi. Jeśli para jest na liście, drużyna dostaje punkty bonusowe i wyjaśnienie.
+
+```json
+{ "id": "zegar", "title": "Zegar nie chodził od poniedziałku",
+  "a": ["d7"], "b": ["d5", "d19"], "points": 1,
+  "message": "Igor zeznał, że zegar stał od poniedziałku, a laboratorium potwierdza pękniętą sprężynę…" }
+```
+- Trafia każda para „dowolny z `a`” + „dowolny z `b`” (kolejność bez znaczenia).
+- Nietrafiona konfrontacja odejmuje 1 pkt z bonusu (bonus nie spada poniżej 0; na poziomie łatwym bez kary).
+
+## Poziomy trudności
+
+Wybiera je drużyna przy zakładaniu pokoju — nic nie trzeba dodawać do pliku:
+- 🟢 **łatwy**: 3 pierwsze podpowiedzi gratis, nietrafione konfrontacje bez kary,
+- 🟡 **normalny**: standardowe zasady,
+- 🔴 **trudny**: podpowiedzi kosztują podwójnie, a po przekroczeniu `time_limit` −1 pkt za każde rozpoczęte 15 minut.
+
+## Serie (`series`)
+
+Sprawy z tym samym `series.id` są pokazywane razem w lobby jako odcinki. Odcinek N można zacząć dopiero po rozwiązaniu odcinka N−1 (admin nie ma tej blokady).
+
 ## Pytania końcowe (`questions`)
 
-Drużyna wysyła jedną wspólną odpowiedź, raz.
+Drużyna edytuje jedną wspólną odpowiedź i wysyła ją, gdy wszyscy zagłosują „za” (raz).
 
 Wybór z listy:
 ```json

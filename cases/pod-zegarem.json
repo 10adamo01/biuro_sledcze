@@ -20,6 +20,10 @@
   },
   {
    "type": "p",
+   "text": "Szukajcie <b>sprzeczności</b>: w aktach przy każdym dokumencie jest przycisk <b>⚔️ Konfrontuj</b> — zestawcie dwa dokumenty, które sobie przeczą. Trafiona sprzeczność daje punkt bonusowy, nietrafiona go odbiera."
+  },
+  {
+   "type": "p",
    "text": "Gdy będziecie gotowi, w zakładce <b>Rozwiązanie</b> wyślijcie jedną wspólną odpowiedź: <b>kto</b>, <b>czym</b>, <b>dlaczego</b> i <b>jak</b> sprawca zatarł ślady. Każda podpowiedź kosztuje 1 punkt."
   },
   {
@@ -1576,6 +1580,145 @@
   {
    "type": "note",
    "text": "Epilog: Konfrontowany z rachunkiem i zeznaniem kelnera Paweł Zieliński milczał przez godzinę. Gdy laboratorium potwierdziło zgodność włókien z jego rękawiczkami, przyznał się. Twierdził, że »chciał tylko porozmawiać«, ale Henryk »nie chciał słuchać«. Ewa Zielińska usłyszała zarzut składania fałszywych zeznań. Igor Sadowski wykupił Omegę z lombardu i oddał ją Marcie Wolskiej, która postanowiła poprowadzić antykwariat ojca. Zegar ze ściany wrócił z naprawy — chodzi do dziś."
+  }
+ ],
+ "story": [
+  {
+   "id": "malinowski",
+   "trigger": {
+    "type": "unlock",
+    "unlock": "laptop"
+   },
+   "from": "insp. Jerzy Malec",
+   "title": "Zgłosił się właściciel zegara",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Pani komisarz, właśnie wyszedł ode mnie <b>Andrzej Malinowski</b> — ten od zegara z maila Wolskiego. Przyszedł sam, przeczytał o śmierci w gazecie. Notatka z rozmowy jest już w aktach (<b>dok. 23</b>)."
+    },
+    {
+     "type": "p",
+     "text": "Proszę ją przeczytać uważnie. Mam wrażenie, że to zmienia obraz całej sprawy."
+    }
+   ],
+   "documents": [
+    {
+     "id": "d23",
+     "no": "23",
+     "category": "Przesłuchania",
+     "title": "Notatka z rozmowy — Andrzej Malinowski",
+     "subtitle": "Kolekcjoner, właściciel zegara »Le Roy« · zgłosił się sam · 18.10.2026, 10:15",
+     "blocks": [
+      {
+       "type": "qa",
+       "items": [
+        [
+         "Dlaczego pan przyszedł?",
+         "Przeczytałem w gazecie o śmierci pana Wolskiego. W środę oddałem mu do przeglądu zegar kominkowy sygnowany »Julien Le Roy«. Chcę go odzyskać — i chyba powinienem coś powiedzieć."
+        ],
+        [
+         "Skąd ma pan ten zegar?",
+         "Kupiłem go w maju od firmy Antiqua Lux, za 186 tysięcy złotych. Dostałem do niego certyfikat autentyczności nr 0912 z podpisem dr. Pawła Zielińskiego. Właśnie ten certyfikat mnie przekonał — doktor Zieliński to w branży nazwisko."
+        ],
+        [
+         "Kiedy ostatnio rozmawiał pan z panem Wolskim?",
+         "W czwartek przed południem zadzwoniłem zapytać o odbiór. Pan Wolski był dziwnie poważny. Powiedział, że »jest problem z mechanizmem«, że musi to jeszcze »wyjaśnić z autorem certyfikatu« i poprosił, żebym do poniedziałku nikomu niczego nie mówił i niczego nie sprzedawał."
+        ],
+        [
+         "Czy mówił, o jaki problem chodzi?",
+         "Nie wprost. Ale zapytał, czy dokumenty sprzedaży mam w domu, i poprosił o zdjęcie umowy. Wysłałem mu je w środę wieczorem mailem. Sprzedawcę reprezentował pan Tomasz Krawczyk."
+        ],
+        [
+         "Czy zna pan dr. Zielińskiego osobiście?",
+         "Raz go widziałem — przy podpisaniu umowy w biurze Antiqua Lux. Był tam razem z panem Krawczykiem, zachowywali się jak dobrzy znajomi."
+        ]
+       ]
+      },
+      {
+       "type": "small",
+       "text": "Rozmowę przeprowadziła kom. Anna Rudnicka. Kopię umowy sprzedaży zabezpieczono."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prokurator",
+   "trigger": {
+    "type": "minutes",
+    "minutes": 40
+   },
+   "from": "insp. Jerzy Malec",
+   "title": "Prokurator naciska",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Dzwonił prokurator. Jeśli do jutra rana nie dostanie twardych dowodów, zamyka sprawę jako <b>nieszczęśliwy wypadek</b>. Proszę się sprężyć."
+    },
+    {
+     "type": "note",
+     "text": "P.S. Technicy pytają, czy ktoś sprawdził, od kiedy ten zegar na zapleczu w ogóle nie chodził."
+    }
+   ]
+  }
+ ],
+ "time_limit": 120,
+ "series": {
+  "id": "rudnicka",
+  "title": "Akta komisarz Rudnickiej",
+  "episode": 1
+ },
+ "confrontations": [
+  {
+   "id": "zegar",
+   "title": "Zegar nie chodził od poniedziałku",
+   "a": [
+    "d7"
+   ],
+   "b": [
+    "d5",
+    "d19"
+   ],
+   "points": 1,
+   "message": "Igor zeznał, że zegar stał od poniedziałku na 4:50, a laboratorium potwierdza pękniętą, skorodowaną sprężynę. Ktoś <b>celowo przestawił wskazówki na 10:30</b> — godzina »zgonu« 22:30 jest fałszywa."
+  },
+  {
+   "id": "kontakt",
+   "title": "Zieliński kłamie o kontakcie z ofiarą",
+   "a": [
+    "d10"
+   ],
+   "b": [
+    "d16"
+   ],
+   "points": 1,
+   "message": "Zieliński twierdzi, że od dwóch tygodni nie rozmawiał z Wolskim, a billing pokazuje rozmowę z jego biurem o 16:12 i SMS-y o 17:05 i 17:31 w dniu śmierci."
+  },
+  {
+   "id": "zona",
+   "title": "Żona przyszła do restauracji sama",
+   "a": [
+    "d10",
+    "d11"
+   ],
+   "b": [
+    "d12",
+    "d18"
+   ],
+   "points": 1,
+   "message": "Zielińscy twierdzą, że byli razem od 20:00. Kelner i rachunek mówią co innego — do ok. 21:30 przy stoliku była tylko żona, a pierwsze dania dla dwóch osób zamówiono o 21:41."
+  },
+  {
+   "id": "cygaretka",
+   "title": "Ofiara nie paliła",
+   "a": [
+    "d2"
+   ],
+   "b": [
+    "d7"
+   ],
+   "points": 1,
+   "message": "W popielniczce leżał niedopałek cygaretki, a Wolski nie znosił dymu. Według Igora cygaretki na zapleczu palił tylko jeden gość — dr Zieliński (por. dok. 5.3)."
   }
  ]
 }

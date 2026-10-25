@@ -7,6 +7,18 @@ Strona do wspólnego rozwiązywania spraw kryminalnych:
 - **akta** (raporty, przesłuchania, paragony, notesy, mapy) — widać, kto co czyta,
 - **tablica dowodów** z karteczkami i czerwonymi nitkami — synchronizowana na żywo,
 - **wspólny notatnik** i dziennik śledztwa,
+- **zakreślacz** w dokumentach (zaznacz tekst → zakreśl / przypnij cytat / dodaj na oś czasu),
+- **wspólna oś czasu** układająca się sama według dnia i godziny,
+- **wiadomości fabularne** — zwroty akcji przychodzące po wnioskach albo po czasie,
+- **głosowanie drużyny** nad wspólną odpowiedzią, **licznik czasu** i **ranking** każdej sprawy,
+- **sprzeczności** ⚔️ — konfrontacja dwóch dokumentów, punkty bonusowe za trafienia,
+- **rywalizacja** — dwie drużyny na tej samej sprawie widzą nawzajem swój postęp,
+- **poziomy trudności** 🟢🟡🔴 wybierane przy zakładaniu pokoju (trudny z limitem czasu),
+- **serie spraw** 📚 — odcinki odblokowywane po kolei,
+- **dźwięki i klimat** 🔊 generowane w przeglądarce, **animacja otwierania teczki**,
+- **✏️ edytor spraw** — tworzenie i poprawianie spraw w formularzach, bez JSON-a,
+- **podzielony ekran** ◫ na komputerze — akta po lewej, tablica/oś czasu/notatki/rozwiązanie po prawej (na telefonie zakładki),
+- **tryb streamera** 🎥 — ukrywa kody pokoi na wizji,
 - **wnioski**, które odblokowują nowe dokumenty,
 - **podpowiedzi** za punkty i jedna wspólna **odpowiedź drużyny** z wynikiem i rozwiązaniem,
 - **własne sprawy**: każdy gracz może założyć pokój z własnego pliku `.json` — taka sprawa jest widoczna tylko w tym pokoju,
@@ -18,7 +30,7 @@ Strona jest statyczna (działa na GitHub Pages / Twojej domenie), a bazą, logow
 
 | Plik | Co to |
 |---|---|
-| `index.html`, `app.js`, `style.css` | strona |
+| `index.html`, `app.js`, `editor.js`, `style.css` | strona |
 | `config.js` | **tu wpisujesz** adres i klucz Supabase |
 | `schema.sql` | baza danych — wklejasz raz w Supabase |
 | `cases/pod-zegarem.json` | pierwsza sprawa do wgrania |
